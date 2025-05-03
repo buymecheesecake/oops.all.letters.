@@ -1,0 +1,12 @@
+
+{
+  "manifest_version": 3,
+  "name": "DNA of Letters",
+  "version": "1.0",
+  "description": "Watch your text evolve—or devolve—into something barely readable. Letters shift, mutate, and look cooler than they should.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }]
+}
